@@ -4,14 +4,17 @@ public class Employee {
     public int idEmployee;
     public String name;
 
+    //constructor gol
     public Employee() {
     }
 
+    //constructor
     public Employee(int idEmployee, String name) {
         this.idEmployee = idEmployee;
         this.name = name;
     }
 
+    //gett si sett
     public int getIdEmployee() {
         return idEmployee;
     }

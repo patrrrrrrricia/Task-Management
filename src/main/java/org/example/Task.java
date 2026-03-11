@@ -15,7 +15,7 @@ public abstract class Task {
         this.statusTask = statusTask;
     }
 
-    //set si get
+    //sett si gett
     public int getIdTask() {
         return idTask;
     }
@@ -33,7 +33,7 @@ public abstract class Task {
     }
 
     //metoda abstracta
-    public abstract double estimateDuration();
+    public abstract int estimateDuration();
     //clasele SimpleTask si ComplexTask au propria logica
 
     @Override
