@@ -20,7 +20,6 @@ public final class SimpleTask extends Task{
     public int estimateDuration() {
         return endHour-startHour;
     }
-
     //gett si sett
     public int getStartHour() {
         return startHour;

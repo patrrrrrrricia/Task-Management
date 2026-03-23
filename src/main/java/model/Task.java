@@ -12,7 +12,7 @@ public abstract sealed class Task implements Serializable permits SimpleTask, Co
     public Task() {
     }
 
-    //constructor
+    //constructorr
     public Task(int idTask, String statusTask) {
         this.idTask = idTask;
         this.statusTask = statusTask;

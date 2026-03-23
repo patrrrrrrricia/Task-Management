@@ -16,7 +16,6 @@ public class Employee implements Serializable { //pt salvarea datelor ulterior
         this.idEmployee = idEmployee;
         this.name = name;
     }
-
     //suprascriere pt map, pt a sti ca 2 angajati cu acelasi ID sunt aceeasi persoana
     @Override
     public boolean equals(Object o) {
