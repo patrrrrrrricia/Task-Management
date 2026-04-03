@@ -1,4 +1,4 @@
-# 📝 Task Management System
+# Task Management System
 
 ## 💻 Overview
 A bespoke management ecosystem tailored for efficient workforce orchestration. This platform allows for seamless synchronization between project managers, employees, and hierarchical task structures. Built on a high-performance **Java 17** core, it transforms fragmented data into a sophisticated administrative experience, blending intuitive **Swing GUI** management with deep analytical intelligence.
