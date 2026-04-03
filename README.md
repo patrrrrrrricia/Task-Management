@@ -10,11 +10,10 @@ A bespoke management ecosystem tailored for efficient workforce orchestration. T
 * **Frontend:** Java Swing (Desktop UI)
 * **Architecture:** Layered Architecture (Model-View-Controller)
 * **Persistence:** Java Binary Serialization (`.ser`)
-* ### ❤ Tech Stack
 
-![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=flat&logo=openjdk&logoColor=white) ![Desktop UI](https://img.shields.io/badge/Java_Swing-%234F4F4F.svg?style=flat&logo=java&logoColor=white) 
+![Java](https://img.shields.io/badge/java-17+-%23FF69B4.svg?style=for-the-badge&logo=openjdk&logoColor=white) ![Java Swing](https://img.shields.io/badge/Java_Swing-%23FF69B4.svg?style=for-the-badge&logo=java&logoColor=white) 
 
-![Architecture](https://img.shields.io/badge/Layered_MVC-%236DB33F.svg?style=flat&logo=dependencyci&logoColor=white) ![Data Persistence](https://img.shields.io/badge/Java_Binary_Serialization-%23333333.svg?style=flat&logo=databricks&logoColor=white)
+![Layered Architecture (MVC)](https://img.shields.io/badge/Layered_MVC-%234F4F4F.svg?style=for-the-badge&logo=dependencyci&logoColor=white) ![Java Binary Serialization](https://img.shields.io/badge/Java_Binary_Serialization-%23333333.svg?style=for-the-badge&logo=databricks&logoColor=white)
 
 ---
 
