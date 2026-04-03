@@ -33,30 +33,18 @@ The project follows a standard layered architecture to maintain clean code and s
 
 ---
 
-## 🛠️ Implementation Highlights
+##  Getting Started
+Follow these instructions to compile the source code and launch the management console:
 
-### **Task Assignment & Work Calculation**
-The system uses specialized logic to track progress and calculate cumulative work hours based on completed tasks.
+Bash
+# 1. Clone the repository
+git clone [https://github.com/your_username/PT2026_Group_LastName_FirstName_Assignment_1.git](https://github.com/your_username/PT2026_Group_LastName_FirstName_Assignment_1.git)
 
-```java
-// Logic for assigning tasks and calculating total duration
-public void assignTaskToEmployee(Employee emp, Task task) {
-    if (emp == null) return;
-    List<Task> tasks = map.computeIfAbsent(emp, k -> new ArrayList<>());
-    if (task != null) {
-        tasks.add(task);
-    }
-}
+# 2. Compilation
+# Compile all layers into the bin directory
+javac -d bin src/**/*.java
 
-public int calculateEmployeeWorkDuration(Employee emp) {
-    List<Task> tasks = map.get(emp);
-    if (tasks == null) return 0;
-    int total = 0;
-    for (Task t : tasks) {
-        if (t != null && "Completed".equals(t.getStatusTask())) {
-            total += t.estimateDuration();
-        }
-    }
-    return total;
-}
-```
+# 3. Execution
+# Launch the application via the Main entry point
+java -cp bin GUI.Main
+© 2026 Task Analytics Platform | Developed by Your Name Here
