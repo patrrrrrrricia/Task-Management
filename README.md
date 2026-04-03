@@ -33,7 +33,6 @@ The project follows a standard layered architecture to maintain clean code and s
 
 * <img width="881" height="1876" alt="image" src="https://github.com/user-attachments/assets/459bb728-1c9e-4195-a34d-959c4de45a29" />
 
-
 ---
 
 © 2026 Task Analytics Platform | Developed by [**𝐋𝐞𝐨𝐧𝐭𝐞 𝐏𝐚𝐭𝐫𝐢𝐜𝐢𝐚-𝐌𝐢𝐫𝐚𝐛𝐞𝐥𝐚**](https://github.com/patrrrrrrricia)
